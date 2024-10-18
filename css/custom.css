@@ -1,0 +1,142 @@
+:root {
+    --my-primary-color: #db8986;
+    --my-global-bg: rgba(255, 255, 255, .8);
+    --preloader-bg: rgba(64, 61, 79, .8);
+    --glass-filter: blur(10px) saturate(1.5);
+    --glass-filter-bright: blur(10px) saturate(1.5) brightness(1.5);
+}
+
+html {
+    cursor: url('/images/cursor/default.png'), default;
+}
+
+#article-container .highlight-tools .expand,
+#article-container .highlight-tools .copy-button,
+a, button, li {
+    cursor: url('/images/cursor/pointer.png'), pointer !important;
+}
+
+[data-theme='dark'] {
+    --my-global-bg: rgba(13, 13, 13, .8)
+}
+
+#page-header.nav-fixed #nav {
+    background-color: unset;
+    backdrop-filter: var(--glass-filter);
+    box-shadow: unset;
+}
+
+#page-header.nav-fixed #nav a,
+#page-header.nav-fixed #nav a:hover {
+    color: white;
+}
+
+#nav {
+    justify-content: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#nav #blog-info {
+    display: none;
+}
+
+#nav .menus_items .menus_item {
+    padding: 0 16px;
+}
+
+#site-title {
+    font-style: italic;
+}
+
+#web_bg {
+    animation: unset;
+}
+
+#footer {
+    background-color: unset;
+}
+
+.layout > #post,
+.layout > #archive,
+.layout > #page,
+#recent-posts > .recent-post-item,
+#aside-content .card-widget {
+    background-color: var(--my-global-bg);
+    backdrop-filter: var(--glass-filter-bright);
+}
+
+#page-header {
+    overflow: hidden;
+    border-radius: 0 0 16px 16px;
+}
+
+#page-header #post-info {
+    bottom: 0;
+    padding-bottom: 32px;
+    backdrop-filter: var(--glass-filter);
+    text-align: center;
+}
+
+#content-inner {
+    animation: unset;
+}
+
+#pagination .page-number {
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
+    background-color: rgba(255, 255, 255, .6);
+    backdrop-filter: var(--glass-filter-bright);
+    box-shadow: inset 0 0 8px -2px white;
+}
+
+.loading-bg,
+#loading-box .loading-left-bg,
+#loading-box .loading-right-bg {
+  backdrop-filter: var(--glass-filter);
+}
+
+#loading-box .spinner-box .configure-border-1,
+#loading-box .spinner-box .configure-border-2 {
+    padding: 4px;
+    width: 128px;
+    height: 128px;
+}
+
+#loading-box .spinner-box .configure-border-1 {
+    background-color: rgba(219,137,134,0.8);
+}
+
+#loading-box .spinner-box .configure-border-2 {
+    background-color: rgba(174, 203, 226, .8);
+    mix-blend-mode: darken;
+}
+
+#nav .site-page:not(.child):after {
+    background-color: var(--light-grey);
+}
+
+[data-theme='dark'] #web_bg:before {
+    display: none;
+}
+
+#aside-content .card-info .author-info__name {
+    font-weight: bold;
+    font-style: italic;
+    color: var(--my-primary-color);
+}
+
+#rightside > div > button {
+    backdrop-filter: var(--glass-filter-bright);
+}
+
+#page-header.not-home-page {
+    background-position: top;
+}
+
+.article-sort-item-img img,
+#aside-content .aside-list > .aside-list-item .thumbnail img {
+    border-radius: 8px;
+}
