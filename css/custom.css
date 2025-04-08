@@ -1,9 +1,8 @@
 :root {
     --my-primary-color: #db8986;
-    --my-global-bg: rgba(255, 255, 255, .8);
+    --my-global-bg: rgba(255, 255, 255, .7);
     --preloader-bg: rgba(64, 61, 79, .8);
-    --glass-filter: blur(10px) saturate(1.5);
-    --glass-filter-bright: blur(10px) saturate(1.5) brightness(1.5);
+    --glass-filter: blur(16px) saturate(1.5);
 }
 
 html {
@@ -17,7 +16,7 @@ a, button, li {
 }
 
 [data-theme='dark'] {
-    --my-global-bg: rgba(13, 13, 13, .8)
+    --my-global-bg: rgba(13, 13, 13, .9)
 }
 
 #page-header.nav-fixed #nav {
@@ -61,10 +60,11 @@ a, button, li {
 .layout > #post,
 .layout > #archive,
 .layout > #page,
-#recent-posts > .recent-post-item,
+#recent-posts > .recent-post-items > .recent-post-item,
 #aside-content .card-widget {
     background-color: var(--my-global-bg);
-    backdrop-filter: var(--glass-filter-bright);
+    backdrop-filter: var(--glass-filter);
+    box-shadow: none;
 }
 
 #page-header {
@@ -76,7 +76,6 @@ a, button, li {
     bottom: 0;
     padding-bottom: 32px;
     backdrop-filter: var(--glass-filter);
-    text-align: center;
 }
 
 #content-inner {
@@ -88,7 +87,7 @@ a, button, li {
     height: 3em;
     line-height: 3em;
     background-color: rgba(255, 255, 255, .6);
-    backdrop-filter: var(--glass-filter-bright);
+    backdrop-filter: var(--glass-filter);
     box-shadow: inset 0 0 8px -2px white;
 }
 
@@ -129,7 +128,7 @@ a, button, li {
 }
 
 #rightside > div > button {
-    backdrop-filter: var(--glass-filter-bright);
+    backdrop-filter: var(--glass-filter);
 }
 
 #page-header.not-home-page {
