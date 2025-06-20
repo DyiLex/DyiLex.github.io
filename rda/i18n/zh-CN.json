@@ -1,0 +1,25 @@
+{
+  "app": {
+    "login": {
+      "title": "RDA 会员登录",
+      "email": "电子邮件",
+      "emailRequired": "电子邮件是必填的。",
+      "emailValidate": "不是一个可用的电子邮件地址。",
+      "password": "密码",
+      "passwordRequired": "密码是必填的。",
+      "button": "登录",
+      "showPassword": "显示密码",
+      "registerTip": "还不是会员？",
+      "registerLink": "立即注册。"
+    },
+    "navbar": {
+      "schedule": "日程",
+      "availability": "可用性",
+      "leaveRequest": "请假申请",
+      "accountSetting": "账户设置"
+    },
+    "scheduleCalendar": {
+      "upcomingClass": "即将开课"
+    }
+  }
+}

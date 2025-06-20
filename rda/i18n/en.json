@@ -1,0 +1,25 @@
+{
+  "app": {
+    "login": {
+      "title": "RDA Member Login",
+      "email": "Email",
+      "emailRequired": "Email is required.",
+      "emailValidate": "Not a available Email.",
+      "password": "Password",
+      "passwordRequired": "Password is required.",
+      "button": "Login",
+      "showPassword": "Show Password",
+      "registerTip": "Not a member yet?",
+      "registerLink": "Register now."
+    },
+    "navbar": {
+      "schedule": "Schedule",
+      "availability": "Availability",
+      "leaveRequest": "Leave Request",
+      "accountSetting": "Account Setting"
+    },
+    "scheduleCalendar": {
+      "upcomingClass": "Upcoming class"
+    }
+  }
+}

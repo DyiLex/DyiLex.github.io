@@ -1,0 +1,25 @@
+{
+  "app": {
+    "login": {
+      "title": "RDA 會員登錄",
+      "email": "電子郵件",
+      "emailRequired": "電郵是必填的。",
+      "emailValidate": "不是一個可用的電郵。",
+      "password": "密碼",
+      "passwordRequired": "密碼是必填的。",
+      "button": "登錄",
+      "showPassword": "顯示密碼",
+      "registerTip": "還不是會員？",
+      "registerLink": "立即註冊。"
+    },
+    "navbar": {
+      "schedule": "日程",
+      "availability": "可用性",
+      "leaveRequest": "請假申請",
+      "accountSetting": "帳號設定"
+    },
+    "scheduleCalendar": {
+      "upcomingClass": "即將開課"
+    }
+  }
+}
